@@ -1,9 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    background-color: #070F2B;
+}
+
+
+
+.main-wrapper,
+.header,
+.content-area01,
+.content-area02,
+.content-area03,
+.content-area04 {
+
+    background-color: #1B1A55;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #1B1A55;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.main-wrapper {
+    margin: 1rem;
+}
+
+.header,
+.content-area02,
+.content-area04 {
     background-color: #535C91;
 }
 
-.highlight {
+.content-area01,
+.content-area03 {
     background-color: #9290C3;
 }
 
-
+ul, ol {
+    margin-left: 3.5em;
+}

@@ -1,7 +1,45 @@
-body {
-    background-color: #535C91;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-ul {
-    background-color: #9290C3;
+body {
+    background-color: #070F2B;
+}
+
+/* body * {
+	margin-bottom: 10px;
+} */
+
+.main-content,
+.main-content h1,
+.section01,
+.section02
+{
+	border: 1px solid black;
+	border-radius: 1rem;
+	padding: 1rem;
+	margin-bottom: 10px;
+}
+
+.main-content {
+	background-color: #1B1A55;
+	margin: 1rem;
+}
+
+.main-content h1 {
+	background-color: #535C91;
+}
+
+.section01 {
+	background-color: #9290C3;
+}
+
+.section01 ul {
+	margin-left: 40px;
+}
+
+.section02 {
+	background-color: #535C91;
 }
